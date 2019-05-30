@@ -80,7 +80,7 @@
 <style lang="stylus">
 	.wrap
 		.wrap-right
-			width: 90%
+			width: 80%
 			.title
 				padding: 24px 20px
 </style>

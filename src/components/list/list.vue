@@ -41,13 +41,12 @@
 		                  prop="address"
 		                  sortable
 		                  label="地址"  
-		                  width="280">
+		                  width="400">
 		              </el-table-column>
 		              <slot name='slot2'></slot>
 		          </el-table>
 		      </div>
 		  </el-col>
-		<!-- </div> -->
 		</el-row>
 	</div> 
 </template>
@@ -146,11 +145,10 @@
 					color:#000;
 					.el-table{
 						.el-table__header-wrapper{
-							
 							table{
 								thead{
-		padding-left:50px;
-							background:red;
+		                            padding-left:50px;
+							        background:red;
 								}
 							}
 						}
@@ -164,9 +162,6 @@
 		}
 		.el-row {
 			margin-bottom: 20px;
-			/* &:last-child {
-				margin-bottom: 0;
-			} */
 		}
 		.el-col {
 			border-radius: 4px;

@@ -24,7 +24,7 @@ export default {
         header
             display: flex
             box-sizing: border-box
-            width: 100vw
+            // width: 100vw
             height: 60px
             background: #20a0ff
             line-height: 60px

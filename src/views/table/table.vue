@@ -1,7 +1,7 @@
 <template>
   <div>
     <titles title='table'></titles>
-    <list1><el-button  slot='slot3' type="primary" size="small" @click="onSubmit">新增</el-button></list1>
+    <list1></list1>
     <list>
       <el-table-column slot='slot1'
         type="selection"

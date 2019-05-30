@@ -102,5 +102,7 @@
 										line-height: 35px
 										padding: 0 0 0 20px
 		.right
-			flex: 1
+			// flex: 1
+			padding-left: 20px
+			box-sizing: border-box
 </style>
