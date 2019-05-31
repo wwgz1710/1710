@@ -47,6 +47,10 @@
 		          </el-table>
 		      </div>
 		  </el-col>
+<<<<<<< HEAD
+=======
+		<!-- </div> -->
+>>>>>>> e56cb3b4c0754b93b10d4964354412fd17a0dd63
 		</el-row>
 	</div> 
 </template>

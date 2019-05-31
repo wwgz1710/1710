@@ -1,5 +1,8 @@
 <template>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e56cb3b4c0754b93b10d4964354412fd17a0dd63
 	<div class="wrap">
 		<div class="wrap-right">
 		  <h4 class="title">Form</h4>
@@ -49,6 +52,7 @@
 		  </el-form>
 		</div>
 	</div>
+<<<<<<< HEAD
 </template>
 <script> 
 	import { Form } from 'element-ui'
@@ -136,35 +140,38 @@
       </el-form>
     </div>
   </div>
+=======
+>>>>>>> e56cb3b4c0754b93b10d4964354412fd17a0dd63
 </template>
 <script> 
-import { Form } from 'element-ui'
-export default {
-  name: 'forms',
-  component: {
-    Form
-  },
-  data() {
-    return {
-      form: {
-        name: '',
-        region: '',
-        date1: '',
-        date2: '',
-        delivery: false,
-        type: [],
-        resource: '',
-        desc: ''
-      }
-    }
-  },
-  methods: {
-    onSubmit() {
-      console.log('submit!')
-    }
-  }
-}
+	import { Form } from 'element-ui'
+	export default {
+	  name: 'form1',
+	  component: {
+		Form
+	  },
+	  data() {
+		return {
+		  form: {
+			name: '',
+			region: '',
+			date1: '',
+			date2: '',
+			delivery: false,
+			type: [],
+			resource: '',
+			desc: ''
+		  }
+		}
+	  },
+	  methods: {
+		onSubmit() {
+		  console.log('submit!')
+		}
+	  }
+	}
 </script>
+<<<<<<< HEAD
 <style lang="stylus" scoped>
   .wrap
     display: flex
@@ -178,3 +185,12 @@ export default {
         padding: 24px 20px
 </style>
 >>>>>>> 069b800fa9695265b03f70f7edd24051774c331d
+=======
+<style lang="stylus">
+	.wrap
+		.wrap-right
+			width: 80%
+			.title
+				padding: 24px 20px
+</style>
+>>>>>>> e56cb3b4c0754b93b10d4964354412fd17a0dd63
